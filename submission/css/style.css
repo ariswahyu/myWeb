@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F7F7;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    position: sticky;
+    top: 0;
+}
+
+.header-logo h1 {
+    font-size: 1.5em;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#navbar li {
+    list-style-type: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #112D4E;
+}
+
+#navbar li a:hover {
+    color: #3F72AF;
+}
+
+#header-container, #main-container {
+    padding: 0 6em;
+}
+
+#main-container {
+    background-color: #FFF;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#list-game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 10px 0;
+}
+
+.content {
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 1px 5px rgba(31, 31, 31, 0.15);
+}
+
+.content img {
+    width: 160px;
+    border-radius: 15px;
+}
+
+.content h3 {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+#footer-container {
+    background-color: #3F72AF;
+}
