@@ -498,6 +498,20 @@ footer {
         font-size: 14px;
     }
 
+    .service {
+        padding: 0;
+    }
+
+    .section-service {
+        flex-direction: column!important;
+        row-gap: 1rem;
+    }
+
+    .service-img {
+        width: 100%;
+        max-width: none;
+    }
+
     .pricelist {
         column-gap: 14px;
     }
@@ -587,20 +601,6 @@ footer {
 
     .box-service i {
         font-size: 1.5rem;
-    }
-
-    .service {
-        padding: 0;
-    }
-
-    .section-service {
-        flex-direction: column!important;
-        row-gap: 1rem;
-    }
-
-    .service-img {
-        width: 100%;
-        max-width: none;
     }
 
     .pricelist {
