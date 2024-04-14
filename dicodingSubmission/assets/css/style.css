@@ -480,6 +480,10 @@ footer {
         max-width: 100px;
     }
 
+    footer {
+        padding: 0;
+    }
+
     #footer-container {
         flex-direction: column;
         gap: 7px;
