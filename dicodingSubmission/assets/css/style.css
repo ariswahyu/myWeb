@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #FFF;
+    position: sticky;
+    inset-block-start: 0;
+    line-height: 0;
+    box-shadow: 0 4px 10px #0000001a;
+    z-index: 999;
+}
+
+#navbar-container,
+main,
+#footer-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 1.7rem 0;
+    margin: 0 auto;
+}
+
+#navbar-container {
+    padding-block: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.webName h1 {
+    font-size: 1.5rem;
+}
+
+.webName a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navList ul {
+    display: flex;
+    justify-content: center;
+    gap: 0 2rem;
+    padding: 0;
+}
+
+.navList ul li {
+    list-style-type: none;
+}
+
+.navList li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+main {
+    /* display: flex;
+    gap: 15px; */
+    padding-top: 0;
+}
+
+#landing {
+    padding-inline: 30px;
+    margin-bottom: 1.5rem;
+}
+
+#isi {
+    display: flex;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid #dfe3ee; */
+    border-radius: 8px;
+    padding: 0 30px;
+}
+
+#sidebar {
+    /* border: 2px solid #dfe3ee; */
+    border-radius: 8px;
+    padding: 0 30px;
+}
+
+.profile {
+    text-align: center;
+    position: sticky;
+    top: 5.5rem;
+}
+
+.profile img {
+    max-width: 150px;
+    border-radius: 999px;
+}
+
+.profile ul {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    justify-content: center;
+    margin-block: 1.6rem;
+}
+
+.profile ul li {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+.profile li a {
+    color: #000;
+}
+
+.profile li a:hover {
+    color: #3b5998;
+    transition: ease 0.3s;
+}
+
+#beranda {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.description h2 {
+    font-size: 3rem;
+}
+
+.description p {
+    font-size: 18px;
+}
+
+.coverImg {
+    display: flex;
+    flex: 1;
+}
+
+.coverImg img {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.desc {
+    font-size: 18px;
+    text-align: center;
+}
+
+.desc h2 {
+    margin-bottom: 0;
+}
+
+.desc p {
+    margin-block: 15px;
+}
+
+.services {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 2.5rem auto;
+    gap: 1rem;
+}
+
+.box-service {
+    border: 2px solid #3b5998;
+    border-radius: 10px;
+    padding: 2.5rem 2.8rem;
+    flex: 1 1 30%;
+}
+
+.box-service i {
+    color: #3b5998;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.box-service p {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.pricelist {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 2em;
+    margin: 2em 0;
+}
+
+.pricelist li {
+    list-style-type: none;
+    font-size: 1.12em;
+    padding: 5px 0;
+}
+
+.pricelist i {
+    color: #3b5998;
+    padding-right: 10px;
+}
+
+.card {
+    background: #FFF;
+    border: 2px solid #3b5998;
+    border-radius: 10px;
+    flex: 1 1 25%;
+    padding: 30px 20px;
+}
+
+.card ul {
+    padding: 0;
+}
+
+.card-header {
+    color: #3b5998;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.card-header h3 {
+    font-size: 20px !important;
+    color: #000;
+    padding-bottom: 5px;
+}
+
+.card-header h3,
+.card-header p {
+    margin: 0;
+}
+
+.orderButton {
+    background-color: #3b5998;
+    color: #FFF;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin-top: 2.5em;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid #526D82;
+    transition: ease 0.3s;
+}
+
+.orderButton i {
+    color: #FFF;
+    padding: 0;
+}
+
+.orderButton:hover {
+    background-color: #FFF;
+    border: 2px solid #526D82;
+    color: #526D82;
+}
+
+.orderButton:hover i {
+    color: #526D82;
+    padding: 0;
+}
+
+#client {
+    border: 2px solid #526D82;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 4em 0;
+    text-align: center;
+}
+
+.logoClient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.logoClient img {
+    width: 140px;
+}
+
+#beranda:target,
+#layanan:target,
+#harga:target,
+#klien:target {
+    border-top: 70px solid transparent;
+    margin-top: -70px;
+}
+
+footer {
+    background-color: #3b5998;
+    color: #FFF;
+}
+
+#footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-block: 1.2rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+    #navbar-container {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .navList ul {
+        flex-wrap: wrap;
+        column-gap: 1rem;
+    }
+
+    main {
+        padding: 1rem 3rem;
+    }
+
+    #content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #beranda {
+        flex-direction: column-reverse;
+    }
+
+    .coverImg {
+        width: 100%;
+    }
+
+    #isi {
+        flex-direction: column;
+    }
+
+    .description h2,
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .description p,
+    p {
+        font-size: 1rem;
+    }
+
+    .description {
+        padding: 0;
+    }
+
+    .services {
+        width: 100%;
+    }
+
+    .box-service {
+        padding: 30px 25px;
+    }
+
+    .box-service i {
+        font-size: 1.5rem;
+    }
+
+    .box-service p {
+        font-size: 14px;
+    }
+
+    .pricelist {
+        column-gap: 1rem;
+    }
+
+    .pricelist li {
+        font-size: 14px;
+    }
+
+    .orderButton {
+        padding: 7px 14px;
+        margin-top: 1rem;
+        font-size: 11px;
+    }
+
+    .logoClient img {
+        max-width: 100px;
+    }
+
+    footer {
+        padding-inline: 3rem;
+    }
+
+    #beranda:target,
+    #layanan:target,
+    #harga:target,
+    #klien:target {
+        border-top: 7.7rem solid transparent;
+        margin-top: -7.7rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #navbar-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 1rem 2.5rem;
+    }
+
+    #beranda {
+        flex-direction: column-reverse;
+    }
+
+    .coverImg img {
+        max-width: 480px;
+    }
+
+    .description h2,
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .description p,
+    p {
+        font-size: 14px;
+    }
+
+    .services {
+        width: 100%;
+        gap: 12px;
+    }
+
+    .box-service {
+        padding: 25px 15px;
+    }
+
+    .box-service p {
+        font-size: 14px;
+    }
+
+    .pricelist {
+        column-gap: 14px;
+    }
+
+    .pricelist li {
+        font-size: 10px;
+    }
+
+    .card {
+        padding: 20px 15px;
+    }
+
+    .orderButton {
+        font-size: 8px;
+    }
+
+    #client {
+        padding: 10px 25px;
+    }
+
+    #client h2 {
+        font-size: 1.3rem;
+    }
+
+    .logoClient img {
+        max-width: 100px;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    #beranda:target,
+    #layanan:target,
+    #harga:target,
+    #klien:target {
+        border-top: 7.6rem solid transparent;
+        margin-top: -7.6rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #navbar-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 1rem 1.5rem;
+    }
+
+    #beranda {
+        flex-direction: column-reverse;
+    }
+
+    .coverImg img {
+        max-width: 440px;
+    }
+
+    .description h2,
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .description p,
+    p {
+        font-size: 12px;
+    }
+
+    .services {
+        width: 100%;
+        gap: 14px;
+    }
+
+    .box-service {
+        padding: 25px 15px;
+    }
+
+    .box-service p {
+        font-size: 12px;
+    }
+
+    .box-service i {
+        font-size: 1.5rem;
+    }
+
+    .pricelist {
+        column-gap: 8px;
+    }
+
+    .card {
+        padding: 20px 10px;
+    }
+
+    .pricelist li {
+        font-size: 10px;
+    }
+
+    #client {
+        padding: 10px 20px;
+    }
+
+    .orderButton {
+        font-size: 8px;
+    }
+
+    .logoClient img {
+        max-width: 80px;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    #beranda:target,
+    #layanan:target,
+    #harga:target,
+    #klien:target {
+        border-top: 7rem solid transparent;
+        margin-top: -7rem;
+    }
+}
+
+@media screen and (max-width: 485px) {
+
+    #navbar-container,
+    #footer-container {
+        padding: 1rem;
+    }
+
+    .navList ul {
+        font-size: 14px;
+    }
+
+    .coverImg img {
+        max-width: 320px;
+    }
+
+    .description p,
+    p {
+        font-size: 11px;
+    }
+
+    .description h2,
+    h2 {
+        font-size: 14px;
+    }
+
+    .services {
+        gap: 12px;
+    }
+
+    .box-service {
+        padding: 20px 10px;
+        flex: 1 1 40%;
+    }
+
+    .box-service i {
+        font-size: 1.2rem;
+    }
+
+    .pricelist {
+        flex-wrap: wrap;
+        gap: 1rem;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .card {
+        flex: 1 1 50%;
+    }
+
+    .logoClient {
+        gap: 20px;
+    }
+
+    #footer-container {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #beranda:target,
+    #layanan:target,
+    #harga:target,
+    #klien:target {
+        border-top: 7.5rem solid transparent;
+        margin-top: -7.5rem;
+    }
+}
