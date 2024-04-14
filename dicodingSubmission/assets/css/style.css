@@ -200,7 +200,7 @@ main {
 .service {
     display: flex;
     flex-direction: column;
-    row-gap: 3rem;
+    row-gap: 4rem;
     padding-inline: 2rem;
     margin-block: 3.5rem;
 }
@@ -209,6 +209,10 @@ main {
     display: flex;
     align-items: center;
     column-gap: 2.5rem;
+}
+
+.section-service:nth-of-type(even) {
+    flex-direction: row-reverse;
 }
 
 .service-img {
