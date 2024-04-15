@@ -480,11 +480,6 @@ footer {
         font-size: 1.5rem;
     }
 
-    .description p,
-    p {
-        font-size: 14px;
-    }
-
     .services {
         width: 100%;
         gap: 12px;
@@ -576,16 +571,6 @@ footer {
         max-width: 440px;
     }
 
-    .description h2,
-    h2 {
-        font-size: 1.2rem;
-    }
-
-    .description p,
-    p {
-        font-size: 12px;
-    }
-
     .services {
         width: 100%;
         gap: 14px;
@@ -646,24 +631,6 @@ footer {
     #navbar-container,
     #footer-container {
         padding: 1rem;
-    }
-
-    .navList ul {
-        font-size: 14px;
-    }
-
-    .coverImg img {
-        max-width: 320px;
-    }
-
-    .description p,
-    p {
-        font-size: 11px;
-    }
-
-    .description h2,
-    h2 {
-        font-size: 14px;
     }
 
     .services {
