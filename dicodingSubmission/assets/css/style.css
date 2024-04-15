@@ -608,7 +608,7 @@ footer {
     .pricelist {
         row-gap: 14px;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         margin-inline: auto;
     }
 
@@ -660,7 +660,7 @@ footer {
 
     .pricelist {
         gap: 1rem;
-        max-width: 85%;
+        max-width: 90%;
         margin-inline: auto;
     }
 
