@@ -536,10 +536,6 @@ footer {
         margin-inline: auto;
     }
 
-    .card {
-        padding: 20px 15px;
-    }
-
     .orderButton {
         font-size: 8px;
     }
@@ -609,10 +605,6 @@ footer {
         font-size: 1.5rem;
     }
 
-    .card {
-        padding: 20px 10px;
-    }
-
     .pricelist {
         row-gap: 14px;
         flex-direction: column;
@@ -670,10 +662,6 @@ footer {
         gap: 1rem;
         max-width: 85%;
         margin-inline: auto;
-    }
-
-    .card {
-        flex: 1 1 50%;
     }
 
     .logoClient {
