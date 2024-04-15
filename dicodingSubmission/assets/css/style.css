@@ -497,10 +497,6 @@ footer {
         width: 80%;
         margin-inline: auto;
     }
-
-    .orderButton {
-        font-size: 8px;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -613,10 +609,6 @@ footer {
 
     #client {
         padding: 10px 20px;
-    }
-
-    .orderButton {
-        font-size: 8px;
     }
 
     .logoClient img {
