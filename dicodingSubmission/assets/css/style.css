@@ -636,6 +636,10 @@ footer {
         padding: 1rem;
     }
 
+    .coverImg img {
+        max-width: 340px;
+    }
+
     .services {
         gap: 12px;
     }
