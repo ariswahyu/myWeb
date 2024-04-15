@@ -316,7 +316,7 @@ hr {
     background-color: #3b5998;
     color: #FFF;
     border-radius: 30px;
-    padding: 10px 15px;
+    padding: 14px 15px;
     margin-top: 2.5em;
     cursor: pointer;
     font-size: 12px;
@@ -324,11 +324,13 @@ hr {
     text-transform: uppercase;
     border: 2px solid #526D82;
     transition: ease 0.3s;
+    line-height: 0;
 }
 
 .orderButton i {
     color: #FFF;
     padding: 0;
+    line-height: 0;
 }
 
 .orderButton:hover {
@@ -457,7 +459,6 @@ footer {
     }
 
     .orderButton {
-        padding: 7px 14px;
         margin-top: 1rem;
         font-size: 11px;
     }
@@ -479,6 +480,29 @@ footer {
     }
 }
 
+@media screen and (max-width: 992px) {
+    .section-service {
+        flex-direction: column !important;
+        row-gap: 1rem;
+    }
+
+    .service-img {
+        width: 100%;
+        max-width: none;
+    }
+
+    .pricelist {
+        row-gap: 14px;
+        flex-direction: column;
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .orderButton {
+        font-size: 8px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #navbar-container {
         flex-direction: column;
@@ -487,10 +511,6 @@ footer {
 
     main {
         padding: 1rem 2.5rem;
-    }
-
-    #beranda {
-        flex-direction: column-reverse;
     }
 
     .coverImg img {
@@ -517,27 +537,6 @@ footer {
 
     .service {
         padding: 0;
-    }
-
-    .section-service {
-        flex-direction: column!important;
-        row-gap: 1rem;
-    }
-
-    .service-img {
-        width: 100%;
-        max-width: none;
-    }
-
-    .pricelist {
-        row-gap: 14px;
-        flex-direction: column;
-        width: 80%;
-        margin-inline: auto;
-    }
-
-    .orderButton {
-        font-size: 8px;
     }
 
     #client {
