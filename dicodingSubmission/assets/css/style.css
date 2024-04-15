@@ -475,8 +475,8 @@ footer {
     #layanan:target,
     #harga:target,
     #klien:target {
-        border-top: 7.7rem solid transparent;
-        margin-top: -7.7rem;
+        border-top: 7.8rem solid transparent;
+        margin-top: -7.8rem;
     }
 }
 
@@ -627,14 +627,6 @@ footer {
         flex-direction: column;
         gap: 7px;
     }
-
-    #beranda:target,
-    #layanan:target,
-    #harga:target,
-    #klien:target {
-        border-top: 7rem solid transparent;
-        margin-top: -7rem;
-    }
 }
 
 @media screen and (max-width: 485px) {
@@ -670,13 +662,5 @@ footer {
     #footer-container {
         text-align: center;
         font-size: 12px;
-    }
-
-    #beranda:target,
-    #layanan:target,
-    #harga:target,
-    #klien:target {
-        border-top: 7.5rem solid transparent;
-        margin-top: -7.5rem;
     }
 }
